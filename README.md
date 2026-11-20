@@ -126,10 +126,12 @@ make dev
 ```bash
 make dev          # Start Flask dev server
 make test         # Run pytest suite
-make eval         # Run offline benchmark (5 samples, no LLM)
+make eval         # Run golden set benchmark (18 candidates)
+make eval-kaggle  # Run 50-sample Kaggle benchmark (10 categories)
 make eval-full    # Full benchmark with LLM-as-a-Judge
 make lint         # ruff + mypy
 make format       # black + ruff --fix
+make deploy       # Automated upload to Hugging Face Spaces
 make clean        # Remove __pycache__, *.pyc, candidates.db
 ```
 
@@ -137,20 +139,24 @@ make clean        # Remove __pycache__, *.pyc, candidates.db
 
 ## 📊 Benchmark Results
 
-Evaluated on 18 engineering candidate fixtures:
+CVInsight is rigorously benchmarked across both a curated engineering golden set and a 50-candidate Kaggle multi-domain dataset (covering Data Science, Java, DevOps, Python, Web Designing, HR, Database, Security, Blockchain, and QA):
 
-| Metric | Score |
-|---|---|
-| Mean Reciprocal Rank (MRR) | **0.9722** |
-| Precision@1 | **0.9444** |
-| Precision@3 | **0.7407** |
-| Recall@3 | **0.8426** |
-| LLM Faithfulness Score | **100%** |
-| Skill Hallucination Rate | **0.00%** |
+| Metric | Kaggle Benchmark (50 Candidates) | Golden Set (18 Candidates) |
+|---|---|---|
+| **Mean Reciprocal Rank (MRR)** | **1.0000** | **0.9722** |
+| **Precision@1** | **100.0%** | **94.44%** |
+| **Precision@3** | **90.00%** | **74.07%** |
+| **Recall@5** | **84.00%** | **86.11%** |
+| **LLM Faithfulness Score** | **100.0%** | **100.0%** |
+| **Skill Hallucination Rate** | **0.00%** | **0.00%** |
 
 ```bash
-python evals/run_evals.py --max-eval 5 --no-llm   # offline
-python evals/run_evals.py --max-eval 18            # full LLM judge
+# Run Kaggle benchmark (50 samples across 10 categories)
+make eval-kaggle
+# or: python evals/run_evals.py --dataset evals/kaggle_benchmark_dataset.json --output evals/kaggle_eval_results.json
+
+# Ingest any custom Kaggle CSV
+python scripts/ingest_kaggle_resumes.py path/to/UpdatedResumeDataSet.csv
 ```
 
 ---

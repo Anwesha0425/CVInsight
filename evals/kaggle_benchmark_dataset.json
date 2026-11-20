@@ -1,0 +1,984 @@
+[
+  {
+    "id": "eval_k001",
+    "candidate_id": "cand_k001",
+    "candidate_name": "Kaggle Candidate 01 - Data Science",
+    "category": "Data Science",
+    "resume": "Data Scientist with 4 years in statistical modeling predictive analytics and machine learning. Expert in Python Pandas NumPy Scikit-learn SQL and data visualization with Matplotlib and Seaborn. Built regression and random forest models to predict customer churn boosting retention by 18 . Familiar with PyTorch and deep learning concepts.",
+    "job_description": "Seeking a Senior Data Scientist proficient in Python, machine learning, Pandas, Scikit-learn, and statistics. Experience with deep learning (PyTorch/TensorFlow) and SQL databases required. Nice to have: MLOps with Docker and cloud deployment on AWS.",
+    "expected_top_matches": [
+      "cand_k001",
+      "cand_k002",
+      "cand_k003",
+      "cand_k004",
+      "cand_k005"
+    ],
+    "expected_missing_skills": [
+      "aws",
+      "docker"
+    ]
+  },
+  {
+    "id": "eval_k002",
+    "candidate_id": "cand_k002",
+    "candidate_name": "Kaggle Candidate 02 - Data Science",
+    "category": "Data Science",
+    "resume": "Lead Data Scientist skilled in NLP Python R machine learning Pandas Scikit-learn and SQL. Deployed sentiment classification using transformers and word embeddings. Created automated data pipelines in PostgreSQL and delivered business intelligence dashboards.",
+    "job_description": "Seeking a Senior Data Scientist proficient in Python, machine learning, Pandas, Scikit-learn, and statistics. Experience with deep learning (PyTorch/TensorFlow) and SQL databases required. Nice to have: MLOps with Docker and cloud deployment on AWS.",
+    "expected_top_matches": [
+      "cand_k001",
+      "cand_k002",
+      "cand_k003",
+      "cand_k004",
+      "cand_k005"
+    ],
+    "expected_missing_skills": [
+      "aws",
+      "docker",
+      "pytorch"
+    ]
+  },
+  {
+    "id": "eval_k003",
+    "candidate_id": "cand_k003",
+    "candidate_name": "Kaggle Candidate 03 - Data Science",
+    "category": "Data Science",
+    "resume": "Senior ML Data Scientist with hands-on expertise in Python TensorFlow PyTorch Scikit-learn Pandas and big data analysis. Designed recommendation algorithms using collaborative filtering. Experience with cloud tools on AWS and containerized workflows.",
+    "job_description": "Seeking a Senior Data Scientist proficient in Python, machine learning, Pandas, Scikit-learn, and statistics. Experience with deep learning (PyTorch/TensorFlow) and SQL databases required. Nice to have: MLOps with Docker and cloud deployment on AWS.",
+    "expected_top_matches": [
+      "cand_k001",
+      "cand_k002",
+      "cand_k003",
+      "cand_k004",
+      "cand_k005"
+    ],
+    "expected_missing_skills": [
+      "docker"
+    ]
+  },
+  {
+    "id": "eval_k004",
+    "candidate_id": "cand_k004",
+    "candidate_name": "Kaggle Candidate 04 - Data Science",
+    "category": "Data Science",
+    "resume": "Data Science Specialist focusing on computer vision and tabular analytics. Proficient in Python OpenCV Pandas Scikit-learn and MySQL. Implemented automated image anomaly detection for manufacturing quality control.",
+    "job_description": "Seeking a Senior Data Scientist proficient in Python, machine learning, Pandas, Scikit-learn, and statistics. Experience with deep learning (PyTorch/TensorFlow) and SQL databases required. Nice to have: MLOps with Docker and cloud deployment on AWS.",
+    "expected_top_matches": [
+      "cand_k001",
+      "cand_k002",
+      "cand_k003",
+      "cand_k004",
+      "cand_k005"
+    ],
+    "expected_missing_skills": [
+      "aws",
+      "docker",
+      "pytorch"
+    ]
+  },
+  {
+    "id": "eval_k005",
+    "candidate_id": "cand_k005",
+    "candidate_name": "Kaggle Candidate 05 - Data Science",
+    "category": "Data Science",
+    "resume": "Junior Data Scientist with academic and industry experience in Python statistical analysis hypothesis testing machine learning with Scikit-learn and data wrangling in Pandas. Strong foundation in SQL and relational database schemas.",
+    "job_description": "Seeking a Senior Data Scientist proficient in Python, machine learning, Pandas, Scikit-learn, and statistics. Experience with deep learning (PyTorch/TensorFlow) and SQL databases required. Nice to have: MLOps with Docker and cloud deployment on AWS.",
+    "expected_top_matches": [
+      "cand_k001",
+      "cand_k002",
+      "cand_k003",
+      "cand_k004",
+      "cand_k005"
+    ],
+    "expected_missing_skills": [
+      "aws",
+      "docker",
+      "pytorch"
+    ]
+  },
+  {
+    "id": "eval_k006",
+    "candidate_id": "cand_k006",
+    "candidate_name": "Kaggle Candidate 06 - Java Developer",
+    "category": "Java Developer",
+    "resume": "Senior Java Developer with 6+ years building distributed enterprise services. Stack Java Spring Boot Spring Cloud Hibernate REST APIs Microservices and MySQL. Designed high-throughput payment processing APIs handling 2M transactions daily. Proficient in Maven JUnit and Git.",
+    "job_description": "Hiring a Java Developer with 4+ years building enterprise microservices using Java, Spring Boot, Hibernate, and REST APIs. Strong database skills in MySQL or PostgreSQL and build tools like Maven/Gradle required. Cloud experience with Docker is a plus.",
+    "expected_top_matches": [
+      "cand_k006",
+      "cand_k007",
+      "cand_k008",
+      "cand_k009",
+      "cand_k010"
+    ],
+    "expected_missing_skills": [
+      "docker",
+      "kubernetes"
+    ]
+  },
+  {
+    "id": "eval_k007",
+    "candidate_id": "cand_k007",
+    "candidate_name": "Kaggle Candidate 07 - Java Developer",
+    "category": "Java Developer",
+    "resume": "Java Backend Engineer specializing in scalable microservices architecture. Core competencies Java Spring Boot Hibernate PostgreSQL Docker and Kafka event streaming. Integrated secure OAuth2 authentication and optimized SQL query performance.",
+    "job_description": "Hiring a Java Developer with 4+ years building enterprise microservices using Java, Spring Boot, Hibernate, and REST APIs. Strong database skills in MySQL or PostgreSQL and build tools like Maven/Gradle required. Cloud experience with Docker is a plus.",
+    "expected_top_matches": [
+      "cand_k006",
+      "cand_k007",
+      "cand_k008",
+      "cand_k009",
+      "cand_k010"
+    ],
+    "expected_missing_skills": [
+      "kubernetes"
+    ]
+  },
+  {
+    "id": "eval_k008",
+    "candidate_id": "cand_k008",
+    "candidate_name": "Kaggle Candidate 08 - Java Developer",
+    "category": "Java Developer",
+    "resume": "Full Stack Java Engineer with experience in Java Spring Boot JPA Hibernate Oracle DB and Angular frontend. Built customer portal services and implemented transaction management and unit test coverage.",
+    "job_description": "Hiring a Java Developer with 4+ years building enterprise microservices using Java, Spring Boot, Hibernate, and REST APIs. Strong database skills in MySQL or PostgreSQL and build tools like Maven/Gradle required. Cloud experience with Docker is a plus.",
+    "expected_top_matches": [
+      "cand_k006",
+      "cand_k007",
+      "cand_k008",
+      "cand_k009",
+      "cand_k010"
+    ],
+    "expected_missing_skills": [
+      "docker",
+      "kubernetes",
+      "microservices"
+    ]
+  },
+  {
+    "id": "eval_k009",
+    "candidate_id": "cand_k009",
+    "candidate_name": "Kaggle Candidate 09 - Java Developer",
+    "category": "Java Developer",
+    "resume": "Java Developer with 3 years building cloud-native RESTful web services. Proficient in Java Spring Hibernate MySQL and Docker containerization. Automated continuous builds using Jenkins and Maven.",
+    "job_description": "Hiring a Java Developer with 4+ years building enterprise microservices using Java, Spring Boot, Hibernate, and REST APIs. Strong database skills in MySQL or PostgreSQL and build tools like Maven/Gradle required. Cloud experience with Docker is a plus.",
+    "expected_top_matches": [
+      "cand_k006",
+      "cand_k007",
+      "cand_k008",
+      "cand_k009",
+      "cand_k010"
+    ],
+    "expected_missing_skills": [
+      "kubernetes",
+      "microservices"
+    ]
+  },
+  {
+    "id": "eval_k010",
+    "candidate_id": "cand_k010",
+    "candidate_name": "Kaggle Candidate 10 - Java Developer",
+    "category": "Java Developer",
+    "resume": "Enterprise Java Consultant with deep experience in Java Spring Boot Hibernate microservices and Apache Tomcat. Led legacy migration from monolithic architecture to modular Spring microservices with zero downtime.",
+    "job_description": "Hiring a Java Developer with 4+ years building enterprise microservices using Java, Spring Boot, Hibernate, and REST APIs. Strong database skills in MySQL or PostgreSQL and build tools like Maven/Gradle required. Cloud experience with Docker is a plus.",
+    "expected_top_matches": [
+      "cand_k006",
+      "cand_k007",
+      "cand_k008",
+      "cand_k009",
+      "cand_k010"
+    ],
+    "expected_missing_skills": [
+      "docker",
+      "kubernetes"
+    ]
+  },
+  {
+    "id": "eval_k011",
+    "candidate_id": "cand_k011",
+    "candidate_name": "Kaggle Candidate 11 - DevOps Engineer",
+    "category": "DevOps Engineer",
+    "resume": "Senior DevOps Engineer with 6 years orchestrating multi-cloud environments. Expert in Kubernetes Docker Terraform AWS Jenkins Linux and Ansible. Built GitOps pipelines with ArgoCD and reduced deployment rollbacks by 70 . Monitored infrastructure using Prometheus and Grafana.",
+    "job_description": "Looking for a DevOps Engineer to manage cloud infrastructure and CI/CD pipelines. Core skills: Linux, Docker, Kubernetes, Terraform, AWS, Jenkins, and Git. Experience with Prometheus, Grafana, and Bash automation strongly preferred.",
+    "expected_top_matches": [
+      "cand_k011",
+      "cand_k012",
+      "cand_k013",
+      "cand_k014",
+      "cand_k015"
+    ],
+    "expected_missing_skills": [
+      "ansible"
+    ]
+  },
+  {
+    "id": "eval_k012",
+    "candidate_id": "cand_k012",
+    "candidate_name": "Kaggle Candidate 12 - DevOps Engineer",
+    "category": "DevOps Engineer",
+    "resume": "Cloud Infrastructure DevOps Engineer proficient in AWS Terraform Docker Kubernetes Bash scripting and GitLab CI. Automated infrastructure provisioning for microservices and implemented network security groups and IAM policies.",
+    "job_description": "Looking for a DevOps Engineer to manage cloud infrastructure and CI/CD pipelines. Core skills: Linux, Docker, Kubernetes, Terraform, AWS, Jenkins, and Git. Experience with Prometheus, Grafana, and Bash automation strongly preferred.",
+    "expected_top_matches": [
+      "cand_k011",
+      "cand_k012",
+      "cand_k013",
+      "cand_k014",
+      "cand_k015"
+    ],
+    "expected_missing_skills": [
+      "prometheus",
+      "grafana",
+      "ansible"
+    ]
+  },
+  {
+    "id": "eval_k013",
+    "candidate_id": "cand_k013",
+    "candidate_name": "Kaggle Candidate 13 - DevOps Engineer",
+    "category": "DevOps Engineer",
+    "resume": "Site Reliability DevOps Specialist experienced in Linux system administration Kubernetes cluster administration Docker Terraform and Prometheus. Designed automated disaster recovery failover pipelines across AWS regions.",
+    "job_description": "Looking for a DevOps Engineer to manage cloud infrastructure and CI/CD pipelines. Core skills: Linux, Docker, Kubernetes, Terraform, AWS, Jenkins, and Git. Experience with Prometheus, Grafana, and Bash automation strongly preferred.",
+    "expected_top_matches": [
+      "cand_k011",
+      "cand_k012",
+      "cand_k013",
+      "cand_k014",
+      "cand_k015"
+    ],
+    "expected_missing_skills": [
+      "grafana",
+      "ansible"
+    ]
+  },
+  {
+    "id": "eval_k014",
+    "candidate_id": "cand_k014",
+    "candidate_name": "Kaggle Candidate 14 - DevOps Engineer",
+    "category": "DevOps Engineer",
+    "resume": "DevOps Specialist with expertise in CI CD automation Jenkins GitHub Actions Docker Linux and Ansible. Streamlined containerized deployments for Python and Java development teams with automated vulnerability scanning.",
+    "job_description": "Looking for a DevOps Engineer to manage cloud infrastructure and CI/CD pipelines. Core skills: Linux, Docker, Kubernetes, Terraform, AWS, Jenkins, and Git. Experience with Prometheus, Grafana, and Bash automation strongly preferred.",
+    "expected_top_matches": [
+      "cand_k011",
+      "cand_k012",
+      "cand_k013",
+      "cand_k014",
+      "cand_k015"
+    ],
+    "expected_missing_skills": [
+      "prometheus",
+      "grafana",
+      "ansible"
+    ]
+  },
+  {
+    "id": "eval_k015",
+    "candidate_id": "cand_k015",
+    "candidate_name": "Kaggle Candidate 15 - DevOps Engineer",
+    "category": "DevOps Engineer",
+    "resume": "Cloud Platform Engineer proficient in Kubernetes Helm Docker Terraform AWS EC2 S3 EKS Linux and Bash scripting. Managed production cluster scaling and cost optimization initiatives saving 25 monthly cloud spend.",
+    "job_description": "Looking for a DevOps Engineer to manage cloud infrastructure and CI/CD pipelines. Core skills: Linux, Docker, Kubernetes, Terraform, AWS, Jenkins, and Git. Experience with Prometheus, Grafana, and Bash automation strongly preferred.",
+    "expected_top_matches": [
+      "cand_k011",
+      "cand_k012",
+      "cand_k013",
+      "cand_k014",
+      "cand_k015"
+    ],
+    "expected_missing_skills": [
+      "prometheus",
+      "grafana",
+      "ansible"
+    ]
+  },
+  {
+    "id": "eval_k016",
+    "candidate_id": "cand_k016",
+    "candidate_name": "Kaggle Candidate 16 - Python Developer",
+    "category": "Python Developer",
+    "resume": "Senior Python Developer with 5 years building scalable web backends. Expert in Python Django FastAPI PostgreSQL Redis caching and Celery asynchronous tasks. Architected RESTful APIs with strict OpenAPI schemas and handled high-concurrency traffic.",
+    "job_description": "We are seeking a Python Developer to build backend services and APIs. Must be experienced in Python, Django or FastAPI, PostgreSQL, Redis, and asynchronous programming with Celery. Familiarity with Docker and Git version control is mandatory.",
+    "expected_top_matches": [
+      "cand_k016",
+      "cand_k017",
+      "cand_k018",
+      "cand_k019",
+      "cand_k020"
+    ],
+    "expected_missing_skills": [
+      "celery",
+      "docker",
+      "graphql"
+    ]
+  },
+  {
+    "id": "eval_k017",
+    "candidate_id": "cand_k017",
+    "candidate_name": "Kaggle Candidate 17 - Python Developer",
+    "category": "Python Developer",
+    "resume": "Python Backend Engineer proficient in Python Flask FastAPI SQLAlchemy PostgreSQL and Docker. Implemented real-time WebSocket communication and automated background data processing jobs using Redis queues.",
+    "job_description": "We are seeking a Python Developer to build backend services and APIs. Must be experienced in Python, Django or FastAPI, PostgreSQL, Redis, and asynchronous programming with Celery. Familiarity with Docker and Git version control is mandatory.",
+    "expected_top_matches": [
+      "cand_k016",
+      "cand_k017",
+      "cand_k018",
+      "cand_k019",
+      "cand_k020"
+    ],
+    "expected_missing_skills": [
+      "celery",
+      "graphql"
+    ]
+  },
+  {
+    "id": "eval_k018",
+    "candidate_id": "cand_k018",
+    "candidate_name": "Kaggle Candidate 18 - Python Developer",
+    "category": "Python Developer",
+    "resume": "Python Full Stack Engineer skilled in Python Django REST framework PostgreSQL and JavaScript. Integrated third-party payment gateways Stripe PayPal and optimized database indexes to decrease response times by 35 .",
+    "job_description": "We are seeking a Python Developer to build backend services and APIs. Must be experienced in Python, Django or FastAPI, PostgreSQL, Redis, and asynchronous programming with Celery. Familiarity with Docker and Git version control is mandatory.",
+    "expected_top_matches": [
+      "cand_k016",
+      "cand_k017",
+      "cand_k018",
+      "cand_k019",
+      "cand_k020"
+    ],
+    "expected_missing_skills": [
+      "celery",
+      "docker",
+      "graphql"
+    ]
+  },
+  {
+    "id": "eval_k019",
+    "candidate_id": "cand_k019",
+    "candidate_name": "Kaggle Candidate 19 - Python Developer",
+    "category": "Python Developer",
+    "resume": "Python Developer with experience in web scraping API development and data automation. Core tools Python FastAPI Beautiful Soup PostgreSQL and Docker. Built automated ingestion pipelines parsing 100k records daily.",
+    "job_description": "We are seeking a Python Developer to build backend services and APIs. Must be experienced in Python, Django or FastAPI, PostgreSQL, Redis, and asynchronous programming with Celery. Familiarity with Docker and Git version control is mandatory.",
+    "expected_top_matches": [
+      "cand_k016",
+      "cand_k017",
+      "cand_k018",
+      "cand_k019",
+      "cand_k020"
+    ],
+    "expected_missing_skills": [
+      "celery",
+      "graphql"
+    ]
+  },
+  {
+    "id": "eval_k020",
+    "candidate_id": "cand_k020",
+    "candidate_name": "Kaggle Candidate 20 - Python Developer",
+    "category": "Python Developer",
+    "resume": "Backend Software Engineer with deep expertise in Python asyncio Django Redis PostgreSQL and unit testing with PyTest. Developed microservices deployed as Docker containers in cloud environments.",
+    "job_description": "We are seeking a Python Developer to build backend services and APIs. Must be experienced in Python, Django or FastAPI, PostgreSQL, Redis, and asynchronous programming with Celery. Familiarity with Docker and Git version control is mandatory.",
+    "expected_top_matches": [
+      "cand_k016",
+      "cand_k017",
+      "cand_k018",
+      "cand_k019",
+      "cand_k020"
+    ],
+    "expected_missing_skills": [
+      "celery",
+      "graphql"
+    ]
+  },
+  {
+    "id": "eval_k021",
+    "candidate_id": "cand_k021",
+    "candidate_name": "Kaggle Candidate 21 - Web Designing",
+    "category": "Web Designing",
+    "resume": "Lead Web Designer and Frontend Developer with 5 years designing modern responsive web applications. Expert in HTML5 CSS3 JavaScript Bootstrap Tailwind CSS Figma and responsive UI design. Built interactive design systems and wireframes.",
+    "job_description": "Looking for a Web Designer and Frontend Developer skilled in HTML5, CSS3, JavaScript, Bootstrap, Tailwind, and Figma. Experience creating responsive layouts and translating UI/UX wireframes into functional web pages. React experience is a bonus.",
+    "expected_top_matches": [
+      "cand_k021",
+      "cand_k022",
+      "cand_k023",
+      "cand_k024",
+      "cand_k025"
+    ],
+    "expected_missing_skills": [
+      "react",
+      "responsive design"
+    ]
+  },
+  {
+    "id": "eval_k022",
+    "candidate_id": "cand_k022",
+    "candidate_name": "Kaggle Candidate 22 - Web Designing",
+    "category": "Web Designing",
+    "resume": "Creative UI UX Designer Frontend Developer proficient in Figma Adobe XD HTML5 CSS3 Bootstrap and JavaScript. Designed corporate brand identities landing pages and interactive prototypes with high conversion rates.",
+    "job_description": "Looking for a Web Designer and Frontend Developer skilled in HTML5, CSS3, JavaScript, Bootstrap, Tailwind, and Figma. Experience creating responsive layouts and translating UI/UX wireframes into functional web pages. React experience is a bonus.",
+    "expected_top_matches": [
+      "cand_k021",
+      "cand_k022",
+      "cand_k023",
+      "cand_k024",
+      "cand_k025"
+    ],
+    "expected_missing_skills": [
+      "react",
+      "tailwind",
+      "responsive design"
+    ]
+  },
+  {
+    "id": "eval_k023",
+    "candidate_id": "cand_k023",
+    "candidate_name": "Kaggle Candidate 23 - Web Designing",
+    "category": "Web Designing",
+    "resume": "Web Designer skilled in HTML CSS JavaScript WordPress theme customization Bootstrap and responsive layouts. Optimized cross-browser compatibility and mobile responsiveness for e-commerce platforms.",
+    "job_description": "Looking for a Web Designer and Frontend Developer skilled in HTML5, CSS3, JavaScript, Bootstrap, Tailwind, and Figma. Experience creating responsive layouts and translating UI/UX wireframes into functional web pages. React experience is a bonus.",
+    "expected_top_matches": [
+      "cand_k021",
+      "cand_k022",
+      "cand_k023",
+      "cand_k024",
+      "cand_k025"
+    ],
+    "expected_missing_skills": [
+      "react",
+      "tailwind",
+      "responsive design"
+    ]
+  },
+  {
+    "id": "eval_k024",
+    "candidate_id": "cand_k024",
+    "candidate_name": "Kaggle Candidate 24 - Web Designing",
+    "category": "Web Designing",
+    "resume": "Frontend Web Designer with experience translating Figma mockups into clean semantic HTML5 and CSS3 code. Proficient in Tailwind CSS Bootstrap JavaScript and accessibility WCAG 2.1 standards.",
+    "job_description": "Looking for a Web Designer and Frontend Developer skilled in HTML5, CSS3, JavaScript, Bootstrap, Tailwind, and Figma. Experience creating responsive layouts and translating UI/UX wireframes into functional web pages. React experience is a bonus.",
+    "expected_top_matches": [
+      "cand_k021",
+      "cand_k022",
+      "cand_k023",
+      "cand_k024",
+      "cand_k025"
+    ],
+    "expected_missing_skills": [
+      "react",
+      "responsive design"
+    ]
+  },
+  {
+    "id": "eval_k025",
+    "candidate_id": "cand_k025",
+    "candidate_name": "Kaggle Candidate 25 - Web Designing",
+    "category": "Web Designing",
+    "resume": "Visual Web Designer skilled in HTML CSS JavaScript Figma Adobe Photoshop and modern CSS Grid Flexbox layouts. Created engaging UI micro-interactions and optimized Core Web Vitals for client websites.",
+    "job_description": "Looking for a Web Designer and Frontend Developer skilled in HTML5, CSS3, JavaScript, Bootstrap, Tailwind, and Figma. Experience creating responsive layouts and translating UI/UX wireframes into functional web pages. React experience is a bonus.",
+    "expected_top_matches": [
+      "cand_k021",
+      "cand_k022",
+      "cand_k023",
+      "cand_k024",
+      "cand_k025"
+    ],
+    "expected_missing_skills": [
+      "react",
+      "tailwind",
+      "responsive design"
+    ]
+  },
+  {
+    "id": "eval_k026",
+    "candidate_id": "cand_k026",
+    "candidate_name": "Kaggle Candidate 26 - HR",
+    "category": "HR",
+    "resume": "Senior HR Manager with 7+ years directing full-cycle talent acquisition employee relations performance management and HR policy development. Experienced in sourcing across tech verticals conducting behavioral interviews and managing ATS platforms.",
+    "job_description": "Seeking an experienced HR Specialist to oversee full-cycle recruiting, talent acquisition, onboarding, and employee relations. Must have excellent communication, interview scheduling, ATS management, and performance appraisal skills.",
+    "expected_top_matches": [
+      "cand_k026",
+      "cand_k027",
+      "cand_k028",
+      "cand_k029",
+      "cand_k030"
+    ],
+    "expected_missing_skills": [
+      "hris",
+      "payroll",
+      "employee engagement"
+    ]
+  },
+  {
+    "id": "eval_k027",
+    "candidate_id": "cand_k027",
+    "candidate_name": "Kaggle Candidate 27 - HR",
+    "category": "HR",
+    "resume": "Technical Recruiter HR Generalist skilled in recruiting candidate screening interview scheduling offer negotiations and onboarding. Sourced and hired over 80 software engineers across backend frontend and DevOps within 12 months.",
+    "job_description": "Seeking an experienced HR Specialist to oversee full-cycle recruiting, talent acquisition, onboarding, and employee relations. Must have excellent communication, interview scheduling, ATS management, and performance appraisal skills.",
+    "expected_top_matches": [
+      "cand_k026",
+      "cand_k027",
+      "cand_k028",
+      "cand_k029",
+      "cand_k030"
+    ],
+    "expected_missing_skills": [
+      "hris",
+      "payroll",
+      "employee engagement"
+    ]
+  },
+  {
+    "id": "eval_k028",
+    "candidate_id": "cand_k028",
+    "candidate_name": "Kaggle Candidate 28 - HR",
+    "category": "HR",
+    "resume": "HR Specialist with expertise in talent acquisition employee engagement HR compliance and performance appraisals. Implemented automated applicant tracking workflows and streamlined employee offboarding processes.",
+    "job_description": "Seeking an experienced HR Specialist to oversee full-cycle recruiting, talent acquisition, onboarding, and employee relations. Must have excellent communication, interview scheduling, ATS management, and performance appraisal skills.",
+    "expected_top_matches": [
+      "cand_k026",
+      "cand_k027",
+      "cand_k028",
+      "cand_k029",
+      "cand_k030"
+    ],
+    "expected_missing_skills": [
+      "hris",
+      "payroll",
+      "employee engagement"
+    ]
+  },
+  {
+    "id": "eval_k029",
+    "candidate_id": "cand_k029",
+    "candidate_name": "Kaggle Candidate 29 - HR",
+    "category": "HR",
+    "resume": "Human Resources Consultant experienced in organizational development talent acquisition recruiting conflict resolution and employee satisfaction initiatives. Partnered with leadership to establish competitive compensation bands.",
+    "job_description": "Seeking an experienced HR Specialist to oversee full-cycle recruiting, talent acquisition, onboarding, and employee relations. Must have excellent communication, interview scheduling, ATS management, and performance appraisal skills.",
+    "expected_top_matches": [
+      "cand_k026",
+      "cand_k027",
+      "cand_k028",
+      "cand_k029",
+      "cand_k030"
+    ],
+    "expected_missing_skills": [
+      "hris",
+      "payroll",
+      "employee engagement"
+    ]
+  },
+  {
+    "id": "eval_k030",
+    "candidate_id": "cand_k030",
+    "candidate_name": "Kaggle Candidate 30 - HR",
+    "category": "HR",
+    "resume": "Talent Acquisition Partner with focus on high-volume and niche engineering recruiting. Proficient in LinkedIn Recruiter ATS platforms communication stakeholder management and diversity recruiting strategies.",
+    "job_description": "Seeking an experienced HR Specialist to oversee full-cycle recruiting, talent acquisition, onboarding, and employee relations. Must have excellent communication, interview scheduling, ATS management, and performance appraisal skills.",
+    "expected_top_matches": [
+      "cand_k026",
+      "cand_k027",
+      "cand_k028",
+      "cand_k029",
+      "cand_k030"
+    ],
+    "expected_missing_skills": [
+      "hris",
+      "payroll",
+      "employee engagement"
+    ]
+  },
+  {
+    "id": "eval_k031",
+    "candidate_id": "cand_k031",
+    "candidate_name": "Kaggle Candidate 31 - Database",
+    "category": "Database",
+    "resume": "Senior Database Administrator DBA with 8 years managing mission-critical relational databases. Expert in Oracle 12c 19c Microsoft SQL Server MySQL and PostgreSQL. Designed high availability clusters replication and backup recovery strategies.",
+    "job_description": "Hiring a Database Administrator (DBA) proficient in Oracle, SQL Server, MySQL, and PostgreSQL. Responsible for schema design, query optimization, high availability, clustering, and disaster recovery. Experience with cloud databases on AWS RDS is preferred.",
+    "expected_top_matches": [
+      "cand_k031",
+      "cand_k032",
+      "cand_k033",
+      "cand_k034",
+      "cand_k035"
+    ],
+    "expected_missing_skills": [
+      "aws",
+      "replication",
+      "performance tuning"
+    ]
+  },
+  {
+    "id": "eval_k032",
+    "candidate_id": "cand_k032",
+    "candidate_name": "Kaggle Candidate 32 - Database",
+    "category": "Database",
+    "resume": "Database Engineer proficient in PostgreSQL MySQL schema optimization query tuning and database migration. Experienced in partitioning large multi-terabyte tables and implementing automated health monitoring scripts.",
+    "job_description": "Hiring a Database Administrator (DBA) proficient in Oracle, SQL Server, MySQL, and PostgreSQL. Responsible for schema design, query optimization, high availability, clustering, and disaster recovery. Experience with cloud databases on AWS RDS is preferred.",
+    "expected_top_matches": [
+      "cand_k031",
+      "cand_k032",
+      "cand_k033",
+      "cand_k034",
+      "cand_k035"
+    ],
+    "expected_missing_skills": [
+      "aws",
+      "replication",
+      "performance tuning"
+    ]
+  },
+  {
+    "id": "eval_k033",
+    "candidate_id": "cand_k033",
+    "candidate_name": "Kaggle Candidate 33 - Database",
+    "category": "Database",
+    "resume": "SQL Server DBA with deep experience in database indexing performance troubleshooting T-SQL programming and SQL Server AlwaysOn Availability Groups. Managed disaster recovery drills and database security access control.",
+    "job_description": "Hiring a Database Administrator (DBA) proficient in Oracle, SQL Server, MySQL, and PostgreSQL. Responsible for schema design, query optimization, high availability, clustering, and disaster recovery. Experience with cloud databases on AWS RDS is preferred.",
+    "expected_top_matches": [
+      "cand_k031",
+      "cand_k032",
+      "cand_k033",
+      "cand_k034",
+      "cand_k035"
+    ],
+    "expected_missing_skills": [
+      "aws",
+      "replication",
+      "performance tuning"
+    ]
+  },
+  {
+    "id": "eval_k034",
+    "candidate_id": "cand_k034",
+    "candidate_name": "Kaggle Candidate 34 - Database",
+    "category": "Database",
+    "resume": "Oracle Database Administrator skilled in Oracle RAC Data Guard RMAN backup performance tuning and PL SQL. Administered 50+ enterprise databases with 99.99 uptime compliance.",
+    "job_description": "Hiring a Database Administrator (DBA) proficient in Oracle, SQL Server, MySQL, and PostgreSQL. Responsible for schema design, query optimization, high availability, clustering, and disaster recovery. Experience with cloud databases on AWS RDS is preferred.",
+    "expected_top_matches": [
+      "cand_k031",
+      "cand_k032",
+      "cand_k033",
+      "cand_k034",
+      "cand_k035"
+    ],
+    "expected_missing_skills": [
+      "aws",
+      "replication",
+      "performance tuning"
+    ]
+  },
+  {
+    "id": "eval_k035",
+    "candidate_id": "cand_k035",
+    "candidate_name": "Kaggle Candidate 35 - Database",
+    "category": "Database",
+    "resume": "Database Architect experienced in SQL MySQL PostgreSQL cloud databases AWS RDS and data warehousing. Designed relational schemas and automated ETL synchronization across distributed application databases.",
+    "job_description": "Hiring a Database Administrator (DBA) proficient in Oracle, SQL Server, MySQL, and PostgreSQL. Responsible for schema design, query optimization, high availability, clustering, and disaster recovery. Experience with cloud databases on AWS RDS is preferred.",
+    "expected_top_matches": [
+      "cand_k031",
+      "cand_k032",
+      "cand_k033",
+      "cand_k034",
+      "cand_k035"
+    ],
+    "expected_missing_skills": [
+      "replication",
+      "performance tuning"
+    ]
+  },
+  {
+    "id": "eval_k036",
+    "candidate_id": "cand_k036",
+    "candidate_name": "Kaggle Candidate 36 - Network Security Engineer",
+    "category": "Network Security Engineer",
+    "resume": "Senior Network Security Engineer with 6 years in enterprise network defense. Proficient in Cisco firewalls Palo Alto networks VPNs IDS IPS TCP IP networking and Linux system hardening. Conducted network penetration tests and security audits.",
+    "job_description": "We need a Network Security Engineer with deep expertise in firewalls, VPNs, IDS/IPS, TCP/IP, Linux, and penetration testing. Relevant certifications (CISSP, CEH) or experience with Wireshark and vulnerability assessments required.",
+    "expected_top_matches": [
+      "cand_k036",
+      "cand_k037",
+      "cand_k038",
+      "cand_k039",
+      "cand_k040"
+    ],
+    "expected_missing_skills": [
+      "wireshark",
+      "penetration testing",
+      "cissp"
+    ]
+  },
+  {
+    "id": "eval_k037",
+    "candidate_id": "cand_k037",
+    "candidate_name": "Kaggle Candidate 37 - Network Security Engineer",
+    "category": "Network Security Engineer",
+    "resume": "Cybersecurity Network Specialist experienced in firewall rule configuration SIEM log analysis Wireshark packet capture and vulnerability assessments. Implemented multi-factor authentication MFA and zero-trust network access policies.",
+    "job_description": "We need a Network Security Engineer with deep expertise in firewalls, VPNs, IDS/IPS, TCP/IP, Linux, and penetration testing. Relevant certifications (CISSP, CEH) or experience with Wireshark and vulnerability assessments required.",
+    "expected_top_matches": [
+      "cand_k036",
+      "cand_k037",
+      "cand_k038",
+      "cand_k039",
+      "cand_k040"
+    ],
+    "expected_missing_skills": [
+      "wireshark",
+      "penetration testing",
+      "cissp"
+    ]
+  },
+  {
+    "id": "eval_k038",
+    "candidate_id": "cand_k038",
+    "candidate_name": "Kaggle Candidate 38 - Network Security Engineer",
+    "category": "Network Security Engineer",
+    "resume": "Network Security Administrator skilled in Cisco ASA Fortinet firewalls VPN tunnels routing switching BGP OSPF and intrusion detection systems. Handled incident response and mitigation during active threat investigations.",
+    "job_description": "We need a Network Security Engineer with deep expertise in firewalls, VPNs, IDS/IPS, TCP/IP, Linux, and penetration testing. Relevant certifications (CISSP, CEH) or experience with Wireshark and vulnerability assessments required.",
+    "expected_top_matches": [
+      "cand_k036",
+      "cand_k037",
+      "cand_k038",
+      "cand_k039",
+      "cand_k040"
+    ],
+    "expected_missing_skills": [
+      "wireshark",
+      "penetration testing",
+      "cissp"
+    ]
+  },
+  {
+    "id": "eval_k039",
+    "candidate_id": "cand_k039",
+    "candidate_name": "Kaggle Candidate 39 - Network Security Engineer",
+    "category": "Network Security Engineer",
+    "resume": "Information Security Network Engineer with certifications CEH CompTIA Security+ . Deep knowledge of TCP IP Linux network protocols penetration testing and security compliance frameworks.",
+    "job_description": "We need a Network Security Engineer with deep expertise in firewalls, VPNs, IDS/IPS, TCP/IP, Linux, and penetration testing. Relevant certifications (CISSP, CEH) or experience with Wireshark and vulnerability assessments required.",
+    "expected_top_matches": [
+      "cand_k036",
+      "cand_k037",
+      "cand_k038",
+      "cand_k039",
+      "cand_k040"
+    ],
+    "expected_missing_skills": [
+      "wireshark",
+      "penetration testing",
+      "cissp"
+    ]
+  },
+  {
+    "id": "eval_k040",
+    "candidate_id": "cand_k040",
+    "candidate_name": "Kaggle Candidate 40 - Network Security Engineer",
+    "category": "Network Security Engineer",
+    "resume": "Network Infrastructure Security Engineer experienced in managing corporate VPNs proxy servers DMZ architecture and endpoint protection. Conducted regular penetration tests and perimeter vulnerability scans.",
+    "job_description": "We need a Network Security Engineer with deep expertise in firewalls, VPNs, IDS/IPS, TCP/IP, Linux, and penetration testing. Relevant certifications (CISSP, CEH) or experience with Wireshark and vulnerability assessments required.",
+    "expected_top_matches": [
+      "cand_k036",
+      "cand_k037",
+      "cand_k038",
+      "cand_k039",
+      "cand_k040"
+    ],
+    "expected_missing_skills": [
+      "wireshark",
+      "penetration testing",
+      "cissp"
+    ]
+  },
+  {
+    "id": "eval_k041",
+    "candidate_id": "cand_k041",
+    "candidate_name": "Kaggle Candidate 41 - Blockchain",
+    "category": "Blockchain",
+    "resume": "Senior Blockchain Engineer with 4 years developing decentralized applications dApps . Expert in Ethereum Solidity smart contracts Web3.js Hardhat cryptography and ERC-20 ERC-721 token standards. Audited smart contracts securing + TVL.",
+    "job_description": "Seeking a Blockchain Engineer to develop decentralized smart contracts. Strong proficiency in Ethereum, Solidity, Web3.js, smart contract auditing, and cryptography required. Experience with Go, Rust, or Python is a plus.",
+    "expected_top_matches": [
+      "cand_k041",
+      "cand_k042",
+      "cand_k043",
+      "cand_k044",
+      "cand_k045"
+    ],
+    "expected_missing_skills": [
+      "rust",
+      "go",
+      "ethereum"
+    ]
+  },
+  {
+    "id": "eval_k042",
+    "candidate_id": "cand_k042",
+    "candidate_name": "Kaggle Candidate 42 - Blockchain",
+    "category": "Blockchain",
+    "resume": "Smart Contract Developer skilled in Solidity EVM architecture Ethereum Web3.js and decentralized finance DeFi protocols. Implemented automated test suites for smart contracts using Foundry and Chai.",
+    "job_description": "Seeking a Blockchain Engineer to develop decentralized smart contracts. Strong proficiency in Ethereum, Solidity, Web3.js, smart contract auditing, and cryptography required. Experience with Go, Rust, or Python is a plus.",
+    "expected_top_matches": [
+      "cand_k041",
+      "cand_k042",
+      "cand_k043",
+      "cand_k044",
+      "cand_k045"
+    ],
+    "expected_missing_skills": [
+      "rust",
+      "go",
+      "ethereum"
+    ]
+  },
+  {
+    "id": "eval_k043",
+    "candidate_id": "cand_k043",
+    "candidate_name": "Kaggle Candidate 43 - Blockchain",
+    "category": "Blockchain",
+    "resume": "Blockchain Protocol Developer with strong proficiency in Go Rust cryptography consensus mechanisms Proof of Stake and distributed peer-to-peer networks. Contributed to open-source blockchain core repositories.",
+    "job_description": "Seeking a Blockchain Engineer to develop decentralized smart contracts. Strong proficiency in Ethereum, Solidity, Web3.js, smart contract auditing, and cryptography required. Experience with Go, Rust, or Python is a plus.",
+    "expected_top_matches": [
+      "cand_k041",
+      "cand_k042",
+      "cand_k043",
+      "cand_k044",
+      "cand_k045"
+    ],
+    "expected_missing_skills": [
+      "go",
+      "ethereum"
+    ]
+  },
+  {
+    "id": "eval_k044",
+    "candidate_id": "cand_k044",
+    "candidate_name": "Kaggle Candidate 44 - Blockchain",
+    "category": "Blockchain",
+    "resume": "Web3 Blockchain Full Stack Developer skilled in Solidity smart contracts Web3.js React and decentralized storage IPFS . Built full-stack NFT marketplace and decentralized voting application.",
+    "job_description": "Seeking a Blockchain Engineer to develop decentralized smart contracts. Strong proficiency in Ethereum, Solidity, Web3.js, smart contract auditing, and cryptography required. Experience with Go, Rust, or Python is a plus.",
+    "expected_top_matches": [
+      "cand_k041",
+      "cand_k042",
+      "cand_k043",
+      "cand_k044",
+      "cand_k045"
+    ],
+    "expected_missing_skills": [
+      "rust",
+      "go",
+      "ethereum"
+    ]
+  },
+  {
+    "id": "eval_k045",
+    "candidate_id": "cand_k045",
+    "candidate_name": "Kaggle Candidate 45 - Blockchain",
+    "category": "Blockchain",
+    "resume": "Blockchain Security Auditor specializing in smart contract vulnerability analysis reentrancy detection cryptography and gas optimization techniques. Reviewed 30+ smart contract protocols prior to mainnet launch.",
+    "job_description": "Seeking a Blockchain Engineer to develop decentralized smart contracts. Strong proficiency in Ethereum, Solidity, Web3.js, smart contract auditing, and cryptography required. Experience with Go, Rust, or Python is a plus.",
+    "expected_top_matches": [
+      "cand_k041",
+      "cand_k042",
+      "cand_k043",
+      "cand_k044",
+      "cand_k045"
+    ],
+    "expected_missing_skills": [
+      "rust",
+      "go",
+      "ethereum"
+    ]
+  },
+  {
+    "id": "eval_k046",
+    "candidate_id": "cand_k046",
+    "candidate_name": "Kaggle Candidate 46 - Testing",
+    "category": "Testing",
+    "resume": "Lead QA Automation Engineer with 6 years designing robust test automation frameworks. Stack Selenium WebDriver Python PyTest Java TestNG Jira and Jenkins CI CD integration. Automated regression suites covering 1 200+ test cases.",
+    "job_description": "Looking for a QA Automation Engineer experienced in Selenium, PyTest or JUnit, TestNG, and CI/CD testing pipelines. Strong skills in manual testing, automated regression suites, bug tracking with Jira, and API testing with Postman.",
+    "expected_top_matches": [
+      "cand_k046",
+      "cand_k047",
+      "cand_k048",
+      "cand_k049",
+      "cand_k050"
+    ],
+    "expected_missing_skills": [
+      "cicd",
+      "performance testing",
+      "postman"
+    ]
+  },
+  {
+    "id": "eval_k047",
+    "candidate_id": "cand_k047",
+    "candidate_name": "Kaggle Candidate 47 - Testing",
+    "category": "Testing",
+    "resume": "Software Development Engineer in Test SDET proficient in Selenium API testing with Postman RestAssured Java and performance testing with JMeter. Integrated automated sanity suites into GitHub Actions PR workflows.",
+    "job_description": "Looking for a QA Automation Engineer experienced in Selenium, PyTest or JUnit, TestNG, and CI/CD testing pipelines. Strong skills in manual testing, automated regression suites, bug tracking with Jira, and API testing with Postman.",
+    "expected_top_matches": [
+      "cand_k046",
+      "cand_k047",
+      "cand_k048",
+      "cand_k049",
+      "cand_k050"
+    ],
+    "expected_missing_skills": [
+      "cicd",
+      "performance testing",
+      "postman"
+    ]
+  },
+  {
+    "id": "eval_k048",
+    "candidate_id": "cand_k048",
+    "candidate_name": "Kaggle Candidate 48 - Testing",
+    "category": "Testing",
+    "resume": "QA Specialist experienced in manual testing automated regression testing bug reporting with Jira and test plan creation. Specialized in cross-browser testing and mobile application QA across Android and iOS.",
+    "job_description": "Looking for a QA Automation Engineer experienced in Selenium, PyTest or JUnit, TestNG, and CI/CD testing pipelines. Strong skills in manual testing, automated regression suites, bug tracking with Jira, and API testing with Postman.",
+    "expected_top_matches": [
+      "cand_k046",
+      "cand_k047",
+      "cand_k048",
+      "cand_k049",
+      "cand_k050"
+    ],
+    "expected_missing_skills": [
+      "cicd",
+      "performance testing",
+      "postman"
+    ]
+  },
+  {
+    "id": "eval_k049",
+    "candidate_id": "cand_k049",
+    "candidate_name": "Kaggle Candidate 49 - Testing",
+    "category": "Testing",
+    "resume": "Automation Tester skilled in Python Selenium PyTest and REST API validation. Designed data-driven test suites that decreased QA regression cycle duration from 3 days to 4 hours.",
+    "job_description": "Looking for a QA Automation Engineer experienced in Selenium, PyTest or JUnit, TestNG, and CI/CD testing pipelines. Strong skills in manual testing, automated regression suites, bug tracking with Jira, and API testing with Postman.",
+    "expected_top_matches": [
+      "cand_k046",
+      "cand_k047",
+      "cand_k048",
+      "cand_k049",
+      "cand_k050"
+    ],
+    "expected_missing_skills": [
+      "cicd",
+      "performance testing",
+      "postman"
+    ]
+  },
+  {
+    "id": "eval_k050",
+    "candidate_id": "cand_k050",
+    "candidate_name": "Kaggle Candidate 50 - Testing",
+    "category": "Testing",
+    "resume": "Quality Assurance Lead proficient in TestNG Selenium Cucumber BDD framework Jira and CI CD pipelines. Managed QA deliverables across Agile sprints and maintained 99.5 defect leakage prevention.",
+    "job_description": "Looking for a QA Automation Engineer experienced in Selenium, PyTest or JUnit, TestNG, and CI/CD testing pipelines. Strong skills in manual testing, automated regression suites, bug tracking with Jira, and API testing with Postman.",
+    "expected_top_matches": [
+      "cand_k046",
+      "cand_k047",
+      "cand_k048",
+      "cand_k049",
+      "cand_k050"
+    ],
+    "expected_missing_skills": [
+      "cicd",
+      "performance testing",
+      "postman"
+    ]
+  }
+]

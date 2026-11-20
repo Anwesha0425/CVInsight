@@ -290,13 +290,13 @@ def evaluate_faithfulness_and_skill_gap(samples: List[Dict[str, Any]], max_eval:
     }
 
 
-def print_summary_table(retrieval_summary: Dict[str, Any], faithfulness_summary: Dict[str, Any]):
+def print_summary_table(retrieval_summary: Dict[str, Any], faithfulness_summary: Dict[str, Any], pool_size: int = 18):
     """Prints a structured ASCII report of evaluation metrics."""
     print("\n" + "=" * 65)
     print("                CVINSIGHT BENCHMARK EVALUATION REPORT")
     print("=" * 65)
 
-    print("\n📊 1. FAISS RETRIEVAL METRICS (Across 18 Candidate Pool):")
+    print(f"\n📊 1. FAISS RETRIEVAL METRICS (Across {pool_size} Candidate Pool):")
     print("-" * 55)
     print(f"  • Mean Reciprocal Rank (MRR):  {retrieval_summary['mrr']:.4f}")
     for k_label, metrics in retrieval_summary["metrics_by_k"].items():
@@ -342,7 +342,7 @@ def main():
     )
 
     # 4. Print Summary
-    print_summary_table(retrieval_results, faithfulness_results)
+    print_summary_table(retrieval_results, faithfulness_results, pool_size=len(samples))
 
     # 5. Save report to disk
     full_output = {

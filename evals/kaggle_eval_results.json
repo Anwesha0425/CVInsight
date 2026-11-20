@@ -1,0 +1,68 @@
+{
+  "retrieval_metrics": {
+    "mrr": 1.0,
+    "metrics_by_k": {
+      "K=1": {
+        "Precision@1": 1.0,
+        "Recall@1": 0.2
+      },
+      "K=3": {
+        "Precision@3": 0.9,
+        "Recall@3": 0.54
+      },
+      "K=5": {
+        "Precision@5": 0.84,
+        "Recall@5": 0.84
+      }
+    }
+  },
+  "faithfulness_metrics": {
+    "num_evaluated": 2,
+    "mean_faithfulness_score": 1.0,
+    "total_extracted_skills": 7,
+    "hallucinated_skills_count": 0,
+    "hallucination_rate": 0.0,
+    "mean_missing_skills_recall": 1.0,
+    "detailed_evaluations": [
+      {
+        "id": "eval_k001",
+        "candidate_name": "Kaggle Candidate 01 - Data Science",
+        "faithfulness_score": 1.0,
+        "hallucinated_skills": [],
+        "matched_skills_count": 5,
+        "missing_skills_overlap": 2,
+        "judge_result": {
+          "faithful": true,
+          "hallucinated_skills": [],
+          "verified_skills": [
+            "pandas",
+            "machine learning",
+            "python",
+            "deep learning",
+            "pytorch"
+          ],
+          "faithfulness_score": 1.0,
+          "judge_type": "heuristic_grounding"
+        }
+      },
+      {
+        "id": "eval_k002",
+        "candidate_name": "Kaggle Candidate 02 - Data Science",
+        "faithfulness_score": 1.0,
+        "hallucinated_skills": [],
+        "matched_skills_count": 2,
+        "missing_skills_overlap": 3,
+        "judge_result": {
+          "faithful": true,
+          "hallucinated_skills": [],
+          "verified_skills": [
+            "machine learning",
+            "python"
+          ],
+          "faithfulness_score": 1.0,
+          "judge_type": "heuristic_grounding"
+        }
+      }
+    ]
+  }
+}

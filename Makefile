@@ -9,6 +9,9 @@ test:
 eval:
 	python evals/run_evals.py --max-eval 5 --no-llm
 
+eval-kaggle:
+	python evals/run_evals.py --dataset evals/kaggle_benchmark_dataset.json --output evals/kaggle_eval_results.json --max-eval 5 --no-llm
+
 eval-full:
 	python evals/run_evals.py
 
