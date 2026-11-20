@@ -1,0 +1,164 @@
+[
+  {
+    "id": "eval_01",
+    "candidate_id": "cand_01",
+    "candidate_name": "Sarah Jenkins - Senior Python Backend Engineer",
+    "resume": "Experienced Python Backend Engineer with 6+ years designing scalable RESTful APIs and distributed microservices. Core stack: Python, Django, FastAPI, PostgreSQL, Redis, Celery, Docker, Git. Built asynchronous message queues handling 50k RPM. Deployed containerized applications with Docker and managed relational schemas in PostgreSQL. Familiar with unit testing via PyTest.",
+    "job_description": "We are seeking a Senior Backend Engineer to architect cloud-native services. Requirements: 5+ years with Python and Django or FastAPI, deep knowledge of PostgreSQL and Redis caching. Must have hands-on experience with AWS (ECS, S3, RDS), Kubernetes, and Terraform for infrastructure. Nice to have: Kafka message streaming.",
+    "expected_top_matches": ["cand_01", "cand_05", "cand_11"],
+    "expected_missing_skills": ["aws", "kubernetes", "terraform", "kafka"]
+  },
+  {
+    "id": "eval_02",
+    "candidate_id": "cand_02",
+    "candidate_name": "David Chen - Senior Frontend Engineer",
+    "resume": "Senior Frontend Developer with 5 years crafting responsive, accessible user interfaces using React, TypeScript, Next.js, Redux Toolkit, HTML5, CSS3, Tailwind CSS, Jest, and Webpack. Built complex SPAs, integrated REST and GraphQL endpoints, optimized Core Web Vitals resulting in 40% faster LCP.",
+    "job_description": "Looking for a Frontend Specialist proficient in React, TypeScript, and modern CSS frameworks like Tailwind. Must be skilled in Next.js SSR/SSG and state management. Strong requirement for mobile development with React Native, GraphQL client caching with Apollo, and automated Cypress E2E testing.",
+    "expected_top_matches": ["cand_02", "cand_05"],
+    "expected_missing_skills": ["react native", "apollo", "cypress"]
+  },
+  {
+    "id": "eval_03",
+    "candidate_id": "cand_03",
+    "candidate_name": "Dr. Elena Rostova - Machine Learning & NLP Engineer",
+    "resume": "Machine Learning Engineer specializing in NLP and GenAI applications. 4 years applying PyTorch, Hugging Face Transformers, LangChain, FAISS vector indexing, and spaCy. Developed semantic search pipelines, fine-tuned LLaMA models with LoRA, and evaluated RAG retrieval accuracy.",
+    "job_description": "We need an AI/NLP Engineer to lead our GenAI search team. Must have strong expertise in Python, PyTorch, Transformers, LangChain, and vector databases (FAISS, Pinecone). Required: Production MLOps experience with Kubeflow, Triton Inference Server, and C++ model deployment.",
+    "expected_top_matches": ["cand_03", "cand_10", "cand_13"],
+    "expected_missing_skills": ["pinecone", "kubeflow", "triton", "c++"]
+  },
+  {
+    "id": "eval_04",
+    "candidate_id": "cand_04",
+    "candidate_name": "Marcus Vance - DevOps & Cloud Platform Engineer",
+    "resume": "DevOps Engineer with 5 years automating cloud infrastructure and CI/CD pipelines. Proficient with Kubernetes, Docker, Terraform, AWS, Ansible, GitHub Actions, Prometheus, Grafana, and Bash scripting. Automated multi-region Kubernetes clusters with zero-downtime rolling upgrades.",
+    "job_description": "Seeking a Senior Cloud Platform Engineer to maintain high-availability infrastructure on Google Cloud Platform (GCP). Requirements: Terraform, Kubernetes, Docker, and CI/CD automation. Mandatory requirements: Istio service mesh, Google Cloud GCP, and HashiCorp Vault secret management.",
+    "expected_top_matches": ["cand_04", "cand_08", "cand_16"],
+    "expected_missing_skills": ["gcp", "google cloud", "istio", "vault"]
+  },
+  {
+    "id": "eval_05",
+    "candidate_id": "cand_05",
+    "candidate_name": "Liam Murphy - Full Stack Web Developer",
+    "resume": "Full Stack Developer with 4 years building end-to-end web applications. Stack: Node.js, Express, React, TypeScript, MongoDB, PostgreSQL, Docker, Git. Created REST APIs, implemented JWT authentication, and built clean UI components with React and CSS modules.",
+    "job_description": "Full Stack Engineer needed to scale our B2B SaaS platform. Core stack: Node.js, React, TypeScript, and relational databases. Must have enterprise experience with GraphQL, Redis caching, AWS Lambda serverless architecture, and Stripe API payment processing.",
+    "expected_top_matches": ["cand_05", "cand_01", "cand_02"],
+    "expected_missing_skills": ["graphql", "redis", "aws lambda", "serverless", "stripe"]
+  },
+  {
+    "id": "eval_06",
+    "candidate_id": "cand_06",
+    "candidate_name": "Amina Al-Mansoor - Big Data & Pipeline Engineer",
+    "resume": "Data Engineer with 5 years building batch and streaming data pipelines. Extensive experience in Python, Apache Spark, PySpark, Airflow, Snowflake, SQL, dbt, and Kafka. Designed data lakehouse architectures and automated complex ETL DAGs processing 10TB+ daily.",
+    "job_description": "Seeking a Senior Data Engineer to architect modern analytics pipelines. Required: Python, SQL, Apache Spark, Airflow, and Snowflake. Critical requirements: Databricks platform, Scala programming, and AWS Glue / EMR orchestration.",
+    "expected_top_matches": ["cand_06", "cand_13"],
+    "expected_missing_skills": ["databricks", "scala", "aws glue", "emr"]
+  },
+  {
+    "id": "eval_07",
+    "candidate_id": "cand_07",
+    "candidate_name": "Carlos Gomez - Native iOS Developer",
+    "resume": "iOS Developer with 4 years developing consumer apps published to the App Store. Core technical skills: Swift, SwiftUI, UIKit, CoreData, Combine, REST APIs, Git, and Xcode Instruments. Implemented modern reactive UIs, asynchronous networking, and local offline persistence.",
+    "job_description": "Looking for a Mobile iOS Engineer to revamp our flagship mobile banking app. Requirements: Swift, SwiftUI, Combine, and UIKit. Required: Metal graphics shading, Objective-C legacy refactoring, and Bluetooth Low Energy (BLE) peripheral connectivity.",
+    "expected_top_matches": ["cand_07"],
+    "expected_missing_skills": ["metal", "objective-c", "ble", "bluetooth"]
+  },
+  {
+    "id": "eval_08",
+    "candidate_id": "cand_08",
+    "candidate_name": "Sophia Zhang - Cloud Solutions Architect",
+    "resume": "Cloud Architect with 8+ years designing enterprise architectures on AWS. AWS Certified Solutions Architect. Skills: AWS, EC2, S3, RDS, IAM, VPC, CloudFormation, Terraform, Microservices, Python, and SOC2 compliance. Migrated 40+ on-prem monolithic workloads to AWS microservices.",
+    "job_description": "Seeking an Enterprise Cloud Solutions Architect to lead enterprise migration. Must be deeply experienced in AWS and Infrastructure-as-Code (Terraform). Required: Microsoft Azure multi-cloud architecture, Kubernetes (EKS/AKS), and TOGAF enterprise modeling.",
+    "expected_top_matches": ["cand_08", "cand_04"],
+    "expected_missing_skills": ["azure", "kubernetes", "togaf"]
+  },
+  {
+    "id": "eval_09",
+    "candidate_id": "cand_09",
+    "candidate_name": "James O'Connor - Cybersecurity & SOC Analyst",
+    "resume": "Security Engineer with 4 years in incident response and penetration testing. Proficient with SIEM (Splunk), Wireshark, Linux security hardening, Python scripting, Nessus, Burp Suite, Network Protocols, and Cryptography. Conducted vulnerability assessments and automated threat detection rules.",
+    "job_description": "Cybersecurity Specialist required for financial systems defense. Requirements: Splunk SIEM, network protocol analysis with Wireshark, and Linux security. Must have hands-on experience with CrowdStrike Falcon EDR, Reverse Engineering with Ghidra, and CISSP certification.",
+    "expected_top_matches": ["cand_09"],
+    "expected_missing_skills": ["crowdstrike", "ghidra", "reverse engineering", "cissp"]
+  },
+  {
+    "id": "eval_10",
+    "candidate_id": "cand_10",
+    "candidate_name": "Vikram Patel - Computer Vision & Deep Learning Engineer",
+    "resume": "Computer Vision Engineer with 4 years deploying vision models. Strong foundations in Python, PyTorch, OpenCV, YOLO, CNN architectures, C++, CUDA, and ONNX runtime. Built real-time object detection and semantic segmentation pipelines for video analytics.",
+    "job_description": "Computer Vision Engineer needed for autonomous robotics navigation. Requirements: Python, PyTorch, OpenCV, YOLO, and CUDA acceleration. Required: 3D point cloud processing with LiDAR, SLAM algorithms, and ROS2 (Robot Operating System).",
+    "expected_top_matches": ["cand_10", "cand_03"],
+    "expected_missing_skills": ["lidar", "slam", "ros2", "robotics"]
+  },
+  {
+    "id": "eval_11",
+    "candidate_id": "cand_11",
+    "candidate_name": "Lucas Meyer - Golang Distributed Systems Engineer",
+    "resume": "Backend Engineer with 5 years building high-throughput microservices in Go (Golang). Skills: Go, gRPC, Protocol Buffers, Kafka, Docker, Kubernetes, PostgreSQL, Redis, and Prometheus. Built low-latency trading feeds and consensus mechanisms processing 200k msgs/sec.",
+    "job_description": "Looking for a Distributed Systems Engineer to scale our transactional backbone. Mandatory: Go (Golang), gRPC, and Kafka. Must possess production experience with Raft consensus protocol, Rust systems programming, and Cassandra NoSQL distributed database.",
+    "expected_top_matches": ["cand_11", "cand_01"],
+    "expected_missing_skills": ["raft", "rust", "cassandra"]
+  },
+  {
+    "id": "eval_12",
+    "candidate_id": "cand_12",
+    "candidate_name": "Chloe Dubois - Native Android Engineer",
+    "resume": "Android Software Engineer with 4 years developing native mobile apps. Proficient in Kotlin, Jetpack Compose, Coroutines, Flow, Android SDK, Room SQLite, Retrofit, MVVM architecture, and Git. Focused on clean architecture and smooth animations.",
+    "job_description": "Android Developer needed for multimedia streaming mobile app. Requirements: Kotlin, Jetpack Compose, Coroutines, and MVVM. Required: Android NDK (C/C++), ExoPlayer video streaming architecture, and WebRTC real-time protocol.",
+    "expected_top_matches": ["cand_12", "cand_07"],
+    "expected_missing_skills": ["ndk", "exoplayer", "webrtc"]
+  },
+  {
+    "id": "eval_13",
+    "candidate_id": "cand_13",
+    "candidate_name": "Robert Kim - Data Scientist & Statistical Modeler",
+    "resume": "Data Scientist with 5 years applying predictive analytics. Core stack: Python, Scikit-learn, Pandas, NumPy, XGBoost, SQL, Matplotlib, Seaborn, and statistical hypothesis testing. Formulated conversion propensity models and analyzed A/B test experiments.",
+    "job_description": "Seeking a Senior Data Scientist to lead our customer lifetime value (LTV) models. Requirements: Python, Pandas, Scikit-learn, XGBoost, and SQL. Must have experience with Causal Inference / Econometrics, R programming, and Tableau dashboards.",
+    "expected_top_matches": ["cand_13", "cand_03", "cand_06"],
+    "expected_missing_skills": ["causal inference", "econometrics", "r", "tableau"]
+  },
+  {
+    "id": "eval_14",
+    "candidate_id": "cand_14",
+    "candidate_name": "Hannah Wright - QA Automation & SDET",
+    "resume": "SDET with 5 years in test automation. Skills: Python, Selenium WebDriver, PyTest, Cypress, Jenkins, Git, Docker, REST API testing with Postman. Engineered automated test suites integrated into CI/CD pipelines reducing regression testing time by 75%.",
+    "job_description": "Senior QA Automation Engineer to drive quality engineering. Requirements: Python, Selenium, Cypress, and CI/CD automation with Jenkins. Mandatory: Performance load testing with k6 or JMeter, Appium for mobile automation, and Security DAST scanning.",
+    "expected_top_matches": ["cand_14"],
+    "expected_missing_skills": ["k6", "jmeter", "appium", "dast"]
+  },
+  {
+    "id": "eval_15",
+    "candidate_id": "cand_15",
+    "candidate_name": "Tariq Mansour - Web3 & Smart Contract Developer",
+    "resume": "Blockchain Developer with 3 years developing decentralized applications (dApps). Proficient with Solidity, Ethereum, Hardhat, Web3.js, Ethers.js, ERC-20, ERC-721 token standards, and OpenZeppelin security contracts. Deployed and audited DeFi protocols.",
+    "job_description": "Web3 Protocol Engineer needed to build next-generation cross-chain bridging. Requirements: Solidity, Ethereum smart contracts, and Hardhat. Must have experience with Rust, Solana smart contracts (Anchor framework), and Zero-Knowledge (ZK) SNARK proofs.",
+    "expected_top_matches": ["cand_15"],
+    "expected_missing_skills": ["rust", "solana", "anchor", "zk-snarks", "zero-knowledge"]
+  },
+  {
+    "id": "eval_16",
+    "candidate_id": "cand_16",
+    "candidate_name": "Mateo Rossi - Site Reliability Engineer (SRE)",
+    "resume": "SRE with 6 years maintaining 99.99% availability for high-load platforms. Skills: Linux administration, Python, Bash, Prometheus, Grafana, Terraform, Docker, Incident Management, and SLO/SLI tracking. Built automated self-healing scripts and alert routing.",
+    "job_description": "Staff Site Reliability Engineer to drive platform resilience. Requirements: Linux, Python/Bash, Prometheus, Grafana, and Terraform. Required: Chaos Engineering with Chaos Mesh or Gremlin, eBPF kernel tracing, and Datadog APM tracing.",
+    "expected_top_matches": ["cand_16", "cand_04"],
+    "expected_missing_skills": ["chaos engineering", "chaos mesh", "gremlin", "ebpf", "datadog"]
+  },
+  {
+    "id": "eval_17",
+    "candidate_id": "cand_17",
+    "candidate_name": "Kavita Rao - Enterprise Java & Spring Boot Architect",
+    "resume": "Java Enterprise Architect with 9+ years developing robust backend services. Core competencies: Java 17, Spring Boot, Spring Cloud, Hibernate, MySQL, Kafka, Maven, Docker, and REST APIs. Designed event-driven transactional systems with strict ACID compliance.",
+    "job_description": "Enterprise Java Lead to modernize legacy core banking systems. Requirements: Java 17, Spring Boot, Hibernate, and Apache Kafka. Required: Quarkus reactive framework, OpenShift container platform, and Camunda BPM workflow engine.",
+    "expected_top_matches": ["cand_17", "cand_01"],
+    "expected_missing_skills": ["quarkus", "openshift", "camunda"]
+  },
+  {
+    "id": "eval_18",
+    "candidate_id": "cand_18",
+    "candidate_name": "Benjamin Mueller - Embedded Systems & Firmware Engineer",
+    "resume": "Embedded Software Engineer with 5 years developing low-level firmware. Technical skills: C, C++, FreeRTOS, ARM Cortex-M microcontrollers, I2C, SPI, UART, CAN bus protocols, Oscilloscopes, and Git. Programmed hardware peripherals for real-time sensor processing.",
+    "job_description": "Seeking an Embedded IoT Engineer for connected medical devices. Requirements: C, C++, RTOS, and hardware bus protocols (I2C, SPI, UART). Mandatory: BLE (Bluetooth Low Energy) firmware stacks, IEC 62304 medical software compliance, and Embedded Linux.",
+    "expected_top_matches": ["cand_18"],
+    "expected_missing_skills": ["ble", "bluetooth low energy", "iec 62304", "embedded linux"]
+  }
+]

@@ -370,15 +370,22 @@
                                 <p style="color: #fca5a5; font-size: 0.9rem;">⚠️ {{ ai_insights[index].error }}</p>
                             {% else %}
                                 <div>
-                                    <h4 style="color: #c4b5fd; margin-bottom: 0.5rem; font-size: 1rem;">🤖 AI Reasoning</h4>
-                                    <p style="font-size: 0.95rem; line-height: 1.5; color: #e2e8f0; margin-bottom: 1rem;">{{ ai_insights[index].match_reasoning }}</p>
+                                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                                        <h4 style="color: #c4b5fd; margin: 0; font-size: 1rem;">🤖 AI Reasoning</h4>
+                                        {% if ai_insights[index].match_score is defined and ai_insights[index].match_score is not none %}
+                                        <span style="background: rgba(99, 102, 241, 0.2); color: #a5b4fc; border: 1px solid rgba(99, 102, 241, 0.4); padding: 0.25rem 0.65rem; border-radius: 12px; font-size: 0.85rem; font-weight: 600;">
+                                            Structured Fit: {{ ai_insights[index].match_score }}/100
+                                        </span>
+                                        {% endif %}
+                                    </div>
+                                    <p style="font-size: 0.95rem; line-height: 1.5; color: #e2e8f0; margin-bottom: 1rem;">{{ ai_insights[index].reasoning or ai_insights[index].match_reasoning }}</p>
                                 </div>
                                 
                                 <div style="display: flex; gap: 2rem; flex-wrap: wrap;">
                                     <div style="flex: 1; min-width: 200px;">
-                                        <h4 style="color: #6ee7b7; margin-bottom: 0.5rem; font-size: 0.9rem;">✅ Extracted Skills</h4>
+                                        <h4 style="color: #6ee7b7; margin-bottom: 0.5rem; font-size: 0.9rem;">✅ Matched Skills</h4>
                                         <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
-                                            {% for skill in ai_insights[index].extracted_skills %}
+                                            {% for skill in (ai_insights[index].matched_skills or ai_insights[index].extracted_skills) %}
                                             <span style="background: rgba(16, 185, 129, 0.1); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.2); padding: 0.2rem 0.6rem; border-radius: 12px; font-size: 0.8rem;">{{ skill }}</span>
                                             {% endfor %}
                                         </div>
@@ -405,10 +412,18 @@
                 {% endif %}
             {% endif %}
             
-            <!-- Chat with Candidate Pool (RAG) -->
+            <!-- Chat with Candidate Pool (RAG & Agentic Routing) -->
             <div class="chat-container">
-                <h2 class="chat-title">💬 Chat with your Candidate Pool</h2>
-                <p style="color: var(--text-muted); margin-bottom: 1.5rem; font-size: 0.9rem;">Ask questions about all candidates in the database using Gemini AI (e.g. "Who has the most experience with Python?").</p>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap; gap: 0.5rem;">
+                    <h2 class="chat-title" style="margin-bottom: 0;">💬 Chat with your Candidate Pool</h2>
+                    <div style="display: flex; align-items: center; gap: 0.5rem; background: rgba(255,255,255,0.05); padding: 0.35rem 0.75rem; border-radius: 20px; border: 1px solid var(--card-border);">
+                        <label style="font-size: 0.85rem; color: #a5b4fc; cursor: pointer; display: flex; align-items: center; gap: 0.4rem;">
+                            <input type="checkbox" id="agentModeToggle" style="cursor: pointer;">
+                            🤖 Agentic Tool Router
+                        </label>
+                    </div>
+                </div>
+                <p style="color: var(--text-muted); margin-bottom: 1.5rem; font-size: 0.9rem;">Ask questions about candidates or toggle Agentic Mode for dynamic LangGraph tool-calling (vector DB query, metadata filtering, document parsing, or recruiter clarification).</p>
                 
                 <div class="chat-box" id="chatResponse">Ask a question to see the AI's response here...</div>
                 
@@ -449,12 +464,14 @@
         const askBtn = document.getElementById('askBtn');
         const chatQuery = document.getElementById('chatQuery');
         const chatResponse = document.getElementById('chatResponse');
+        const agentModeToggle = document.getElementById('agentModeToggle');
 
         askBtn.addEventListener('click', async () => {
             const query = chatQuery.value.trim();
             if (!query) return;
 
-            chatResponse.innerHTML = '<span style="color: var(--text-muted);">Thinking...</span>';
+            const isAgent = agentModeToggle && agentModeToggle.checked;
+            chatResponse.innerHTML = `<span style="color: var(--text-muted);">${isAgent ? '🤖 Agent analyzing route & tools...' : 'Thinking...'}</span>`;
             askBtn.disabled = true;
             askBtn.style.opacity = '0.5';
 
@@ -464,11 +481,19 @@
                     headers: {
                         'Content-Type': 'application/json',
                     },
-                    body: JSON.stringify({ query: query })
+                    body: JSON.stringify({ query: query, mode: isAgent ? 'agent' : 'rag' })
                 });
 
                 const data = await response.json();
-                chatResponse.textContent = data.answer || "No response generated.";
+                let outputHtml = '';
+                
+                if (data.mode === 'agent' && data.tool_calls && data.tool_calls.length > 0) {
+                    const toolsList = data.tool_calls.map(tc => `<span style="background: rgba(99, 102, 241, 0.2); color: #a5b4fc; border: 1px solid rgba(99, 102, 241, 0.4); padding: 0.15rem 0.5rem; border-radius: 8px; font-size: 0.75rem; font-family: monospace;">${tc.tool || 'tool'}</span>`).join(' ');
+                    outputHtml += `<div style="margin-bottom: 0.75rem; padding-bottom: 0.5rem; border-bottom: 1px solid rgba(255,255,255,0.08); font-size: 0.8rem; color: #94a3b8;">🛠️ <strong>Agent Activated Tools:</strong> ${toolsList}</div>`;
+                }
+                
+                outputHtml += `<div style="white-space: pre-wrap;">${data.answer || "No response generated."}</div>`;
+                chatResponse.innerHTML = outputHtml;
             } catch (error) {
                 chatResponse.textContent = "Error communicating with server.";
                 console.error("Chat Error:", error);

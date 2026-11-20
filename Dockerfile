@@ -5,28 +5,32 @@ WORKDIR /app
 # Install system dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
+    curl \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy requirements file
-COPY requirements.txt .
+# Copy requirements first for better layer caching
+COPY requirements.txt requirements-dev.txt ./
 
-# Install PyTorch CPU version first to keep image size small
+# Install PyTorch CPU (small footprint)
 RUN pip install --no-cache-dir torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 
-# Install the rest of the dependencies
+# Install application dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Download the spaCy model
+# Download spaCy NLP model
 RUN python -m spacy download en_core_web_sm
 
-# Copy the rest of the application
+# Copy application code
 COPY . .
 
-# Expose port 5000 (standard for Flask/Gunicorn)
+# Create runtime directories
+RUN mkdir -p uploads static
+
+# Expose Flask/Gunicorn port
 EXPOSE 5000
 
-# Create uploads directory
-RUN mkdir -p uploads
+HEALTHCHECK --interval=30s --timeout=10s --start-period=15s --retries=3 \
+    CMD curl -f http://localhost:5000/ || exit 1
 
-# Command to run the application using Gunicorn (1 worker to save RAM on free tiers)
-CMD ["gunicorn", "--bind", "0.0.0.0:5000", "--workers", "1", "--threads", "2", "--timeout", "120", "main:app"]
+# Production entry: gunicorn → wsgi.py
+CMD ["gunicorn", "--bind", "0.0.0.0:5000", "--workers", "1", "--threads", "2", "--timeout", "120", "wsgi:application"]
